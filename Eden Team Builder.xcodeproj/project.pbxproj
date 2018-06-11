@@ -7,25 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FC41C4616D164A7266E7C94 /* Pods_Eden_Team_Builder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3A4F46EF92F0CFE4B29552 /* Pods_Eden_Team_Builder.framework */; };
+		432EBA18206BDAD40027B32B /* Surface_Medium-Italique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 432EBA17206BDAD40027B32B /* Surface_Medium-Italique.otf */; };
+		432EBA1A206BDAE10027B32B /* Surface_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 432EBA19206BDAE10027B32B /* Surface_Bold.otf */; };
+		434C38D0206BDDA8002924E9 /* Surface_Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 434C38CF206BDDA8002924E9 /* Surface_Medium.otf */; };
+		437486C920A9C09900794A2B /* ProfilFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437486C820A9C09900794A2B /* ProfilFormViewController.swift */; };
+		43A3DA9C20776DA00045B448 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43A3DA9920776D9E0045B448 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		43A3DA9E20776DA00045B448 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43A3DA9A20776DA00045B448 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		43A3DAA220776FEF0045B448 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A3DAA120776FEF0045B448 /* Model.swift */; };
 		43DD7EE3205B04830013FC75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DD7EE2205B04830013FC75 /* AppDelegate.swift */; };
-		43DD7EE5205B04830013FC75 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DD7EE4205B04830013FC75 /* RootViewController.swift */; };
-		43DD7EE7205B04830013FC75 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DD7EE6205B04830013FC75 /* DataViewController.swift */; };
-		43DD7EE9205B04830013FC75 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DD7EE8205B04830013FC75 /* ModelController.swift */; };
 		43DD7EEC205B04830013FC75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43DD7EEA205B04830013FC75 /* Main.storyboard */; };
 		43DD7EEE205B04830013FC75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43DD7EED205B04830013FC75 /* Assets.xcassets */; };
 		43DD7EF1205B04830013FC75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43DD7EEF205B04830013FC75 /* LaunchScreen.storyboard */; };
+		43DD7EFB205B13010013FC75 /* Personnage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DD7EFA205B13010013FC75 /* Personnage.swift */; };
+		43DD7EFF205B19F80013FC75 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DD7EFE205B19F80013FC75 /* PageViewController.swift */; };
+		43DD7F01206012160013FC75 /* PersonnageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DD7F00206012160013FC75 /* PersonnageController.swift */; };
+		43DD7F03206023020013FC75 /* Vtks.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43DD7F02206023020013FC75 /* Vtks.ttf */; };
+		43E4704F20AC1C7600A57F9C /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E4704E20AC1C7600A57F9C /* AddController.swift */; };
+		43E4705220AC336700A57F9C /* EnumCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E4705120AC336700A57F9C /* EnumCollection.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		43A3DA9F20776DA00045B448 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				43A3DA9E20776DA00045B448 /* Realm.framework in Embed Frameworks */,
+				43A3DA9C20776DA00045B448 /* RealmSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3F3A4F46EF92F0CFE4B29552 /* Pods_Eden_Team_Builder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eden_Team_Builder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		432EBA17206BDAD40027B32B /* Surface_Medium-Italique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Surface_Medium-Italique.otf"; sourceTree = "<group>"; };
+		432EBA19206BDAE10027B32B /* Surface_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Surface_Bold.otf; sourceTree = "<group>"; };
+		434C38CF206BDDA8002924E9 /* Surface_Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Surface_Medium.otf; sourceTree = "<group>"; };
+		437486C820A9C09900794A2B /* ProfilFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilFormViewController.swift; sourceTree = "<group>"; };
+		43A3DA9720776D0D0045B448 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		43A3DA9820776D0E0045B448 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		43A3DA9920776D9E0045B448 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		43A3DA9A20776DA00045B448 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		43A3DAA120776FEF0045B448 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		43DD7EDF205B04830013FC75 /* Eden Team Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eden Team Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43DD7EE2205B04830013FC75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43DD7EE4205B04830013FC75 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		43DD7EE6205B04830013FC75 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		43DD7EE8205B04830013FC75 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		43DD7EEB205B04830013FC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43DD7EED205B04830013FC75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43DD7EF0205B04830013FC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43DD7EF2205B04830013FC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43DD7EFA205B13010013FC75 /* Personnage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personnage.swift; sourceTree = "<group>"; };
+		43DD7EFE205B19F80013FC75 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		43DD7F00206012160013FC75 /* PersonnageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnageController.swift; sourceTree = "<group>"; };
+		43DD7F02206023020013FC75 /* Vtks.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vtks.ttf; sourceTree = "<group>"; };
+		43E4704E20AC1C7600A57F9C /* AddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
+		43E4705120AC336700A57F9C /* EnumCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumCollection.swift; sourceTree = "<group>"; };
+		4AC9BA46DDECE4DE6D139A43 /* Pods-Eden Team Builder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eden Team Builder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eden Team Builder/Pods-Eden Team Builder.debug.xcconfig"; sourceTree = "<group>"; };
+		872E73D2D9F9F4F41BECB9AC /* Pods-Eden Team Builder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eden Team Builder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eden Team Builder/Pods-Eden Team Builder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +74,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC41C4616D164A7266E7C94 /* Pods_Eden_Team_Builder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19F5AFA366BDC630267598C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F3A4F46EF92F0CFE4B29552 /* Pods_Eden_Team_Builder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		43DD7ED6205B04830013FC75 = {
 			isa = PBXGroup;
 			children = (
+				43A3DA9A20776DA00045B448 /* Realm.framework */,
+				43A3DA9920776D9E0045B448 /* RealmSwift.framework */,
 				43DD7EE1205B04830013FC75 /* Eden Team Builder */,
 				43DD7EE0205B04830013FC75 /* Products */,
+				F2E5E7066DFEB4B1281ABB24 /* Pods */,
+				19F5AFA366BDC630267598C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +112,66 @@
 		43DD7EE1205B04830013FC75 /* Eden Team Builder */ = {
 			isa = PBXGroup;
 			children = (
-				43DD7EE2205B04830013FC75 /* AppDelegate.swift */,
-				43DD7EE4205B04830013FC75 /* RootViewController.swift */,
-				43DD7EE6205B04830013FC75 /* DataViewController.swift */,
-				43DD7EE8205B04830013FC75 /* ModelController.swift */,
-				43DD7EEA205B04830013FC75 /* Main.storyboard */,
-				43DD7EED205B04830013FC75 /* Assets.xcassets */,
-				43DD7EEF205B04830013FC75 /* LaunchScreen.storyboard */,
+				43E4705020AC334D00A57F9C /* Utils */,
 				43DD7EF2205B04830013FC75 /* Info.plist */,
+				43DD7EE2205B04830013FC75 /* AppDelegate.swift */,
+				43DD7F04206023120013FC75 /* Fonts */,
+				43DD7EF8205B12820013FC75 /* Controller */,
+				43DD7EED205B04830013FC75 /* Assets.xcassets */,
+				43DD7EF9205B12DC0013FC75 /* Model */,
+				43DD7EEF205B04830013FC75 /* LaunchScreen.storyboard */,
+				43DD7EEA205B04830013FC75 /* Main.storyboard */,
 			);
 			path = "Eden Team Builder";
+			sourceTree = "<group>";
+		};
+		43DD7EF8205B12820013FC75 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				43DD7EFE205B19F80013FC75 /* PageViewController.swift */,
+				43DD7F00206012160013FC75 /* PersonnageController.swift */,
+				437486C820A9C09900794A2B /* ProfilFormViewController.swift */,
+				43E4704E20AC1C7600A57F9C /* AddController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		43DD7EF9205B12DC0013FC75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43DD7EFA205B13010013FC75 /* Personnage.swift */,
+				43A3DAA120776FEF0045B448 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43DD7F04206023120013FC75 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				434C38CF206BDDA8002924E9 /* Surface_Medium.otf */,
+				432EBA19206BDAE10027B32B /* Surface_Bold.otf */,
+				432EBA17206BDAD40027B32B /* Surface_Medium-Italique.otf */,
+				43DD7F02206023020013FC75 /* Vtks.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		43E4705020AC334D00A57F9C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				43E4705120AC336700A57F9C /* EnumCollection.swift */,
+			);
+			name = Utils;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F2E5E7066DFEB4B1281ABB24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AC9BA46DDECE4DE6D139A43 /* Pods-Eden Team Builder.debug.xcconfig */,
+				872E73D2D9F9F4F41BECB9AC /* Pods-Eden Team Builder.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43DD7EF5205B04830013FC75 /* Build configuration list for PBXNativeTarget "Eden Team Builder" */;
 			buildPhases = (
+				DFE23F714FC784E55F0AEA75 /* [CP] Check Pods Manifest.lock */,
 				43DD7EDB205B04830013FC75 /* Sources */,
 				43DD7EDC205B04830013FC75 /* Frameworks */,
 				43DD7EDD205B04830013FC75 /* Resources */,
+				43A3DA9F20776DA00045B448 /* Embed Frameworks */,
+				CCDCC7CFC12DB2C9770DD44A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -97,7 +204,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Sébastien Gilabert";
 				TargetAttributes = {
 					43DD7EDE205B04830013FC75 = {
@@ -111,7 +218,6 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = 43DD7ED6205B04830013FC75;
@@ -129,6 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				432EBA1A206BDAE10027B32B /* Surface_Bold.otf in Resources */,
+				432EBA18206BDAD40027B32B /* Surface_Medium-Italique.otf in Resources */,
+				434C38D0206BDDA8002924E9 /* Surface_Medium.otf in Resources */,
+				43DD7F03206023020013FC75 /* Vtks.ttf in Resources */,
 				43DD7EF1205B04830013FC75 /* LaunchScreen.storyboard in Resources */,
 				43DD7EEE205B04830013FC75 /* Assets.xcassets in Resources */,
 				43DD7EEC205B04830013FC75 /* Main.storyboard in Resources */,
@@ -137,15 +247,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CCDCC7CFC12DB2C9770DD44A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Eden Team Builder/Pods-Eden Team Builder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageRow/ImageRow.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageRow.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eden Team Builder/Pods-Eden Team Builder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFE23F714FC784E55F0AEA75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eden Team Builder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43DD7EDB205B04830013FC75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43DD7EE5205B04830013FC75 /* RootViewController.swift in Sources */,
-				43DD7EE9205B04830013FC75 /* ModelController.swift in Sources */,
-				43DD7EE7205B04830013FC75 /* DataViewController.swift in Sources */,
+				43E4705220AC336700A57F9C /* EnumCollection.swift in Sources */,
+				43DD7EFF205B19F80013FC75 /* PageViewController.swift in Sources */,
 				43DD7EE3205B04830013FC75 /* AppDelegate.swift in Sources */,
+				437486C920A9C09900794A2B /* ProfilFormViewController.swift in Sources */,
+				43A3DAA220776FEF0045B448 /* Model.swift in Sources */,
+				43DD7EFB205B13010013FC75 /* Personnage.swift in Sources */,
+				43E4704F20AC1C7600A57F9C /* AddController.swift in Sources */,
+				43DD7F01206012160013FC75 /* PersonnageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +311,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				43DD7EEB205B04830013FC75 /* Base */,
+				43A3DA9820776D0E0045B448 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -164,6 +320,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				43DD7EF0205B04830013FC75 /* Base */,
+				43A3DA9720776D0D0045B448 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -185,6 +342,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -192,6 +350,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -242,6 +401,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -249,6 +409,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -280,10 +441,15 @@
 		};
 		43DD7EF6205B04830013FC75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC9BA46DDECE4DE6D139A43 /* Pods-Eden Team Builder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FB5HV35GU3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Eden Team Builder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glab.eden.Eden-Team-Builder";
@@ -295,10 +461,15 @@
 		};
 		43DD7EF7205B04830013FC75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872E73D2D9F9F4F41BECB9AC /* Pods-Eden Team Builder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FB5HV35GU3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Eden Team Builder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glab.eden.Eden-Team-Builder";
